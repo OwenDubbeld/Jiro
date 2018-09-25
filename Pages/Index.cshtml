@@ -1,0 +1,56 @@
+﻿@page
+@using razorapp
+@model IndexModel
+
+<h2>Games</h2>
+<p>
+    @Model.Message
+    <div> 
+        @ViewData["Game1title"]
+        @ViewData["break"]
+        @ViewData["Game1platform"]
+        @ViewData["break"]
+        @ViewData["Game1genre"]
+        @ViewData["break"]
+        @ViewData["Game1pegi"]
+    </div>  
+    <div> 
+        @ViewData["Game2title"]
+        @ViewData["break"]
+        @ViewData["Game2platform"]
+        @ViewData["break"]
+        @ViewData["Game2genre"]
+        @ViewData["break"]
+        @ViewData["Game2pegi"]
+    </div>  
+    <div> 
+        @ViewData["Game3title"]
+        @ViewData["break"]
+        @ViewData["Game3platform"]
+        @ViewData["break"]
+        @ViewData["Game3genre"]
+        @ViewData["break"]
+        @ViewData["Game3pegi"]
+    </div>  
+    <div> 
+        @ViewData["Game4title"]
+        @ViewData["break"]
+        @ViewData["Game4platform"]
+        @ViewData["break"]
+        @ViewData["Game4genre"]
+        @ViewData["break"]
+        @ViewData["Game4pegi"]
+    </div>  
+    <div> 
+        @ViewData["Game5title"]
+        @ViewData["break"]
+        @ViewData["Game5platform"]
+        @ViewData["break"]
+        @ViewData["Game5genre"]
+        @ViewData["break"]
+        @ViewData["Game5pegi"]
+    </div>  
+    <div>
+        @Html.Raw(ViewData["Foo"])
+    </div>
+</p>
